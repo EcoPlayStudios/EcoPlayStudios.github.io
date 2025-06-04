@@ -69,11 +69,19 @@
       margin-top: 0;
     }
 
-    /* Estilo para centrar el botón */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 1em;
+      color: #388e3c;
+    }
+
     .boton-centro {
       display: flex;
       justify-content: center;
+      gap: 20px;
       margin-top: 40px;
+      flex-wrap: wrap;
     }
 
     .btn {
@@ -90,6 +98,14 @@
 
     .btn:hover {
       background-color: #2e7d32;
+    }
+
+    .btn.itchio {
+      background-color: #ef5350;
+    }
+
+    .btn.itchio:hover {
+      background-color: #c62828;
     }
   </style>
 </head>
@@ -124,23 +140,24 @@
 
     <div class="seccion">
       <h2>🕹️ ¿De qué trata?</h2>
-      <p>En un mundo desolado por el impacto climatico, el jugador se embarcara en una aventura en la
-        cual tendrá que pelear
-        con diferentes enemigos para sobrevivir mientras va reciclando y recogiendo basura y chatarra para subir de
-        nivel. Además, podrá recolectar
-        piezas de información que poco a poco le irán contando que acciones fueron las que trajeron consigo tales
-        consecuencias climáticas en el mundo.</p>
+      <p>En un mundo desolado por el impacto climático, el jugador se embarcará en una aventura en la cual tendrá que
+        pelear con diferentes enemigos para sobrevivir mientras va reciclando y recogiendo basura y chatarra para subir
+        de nivel. Además, podrá recolectar piezas de información que poco a poco le irán contando qué acciones fueron
+        las que trajeron consigo tales consecuencias climáticas en el mundo.</p>
     </div>
-    <footer>
-      ¿Necesitas Ayuda? ¡Contactanos! Correo: ecoplaystudios@gmail.com
-    </footer>
 
     <div class="boton-centro">
-      <a class="btn" href="https://drive.google.com/uc?export=download&id=1pBqP5qoYt_vjseSyH3-ZQfUUFB3UcLd0" >
+      <a class="btn" href="https://drive.google.com/uc?export=download&id=1pBqP5qoYt_vjseSyH3-ZQfUUFB3UcLd0">
         Descargar juego
+      </a>
+      <a class="btn itchio" href="https://ecoplay-studios.itch.io/ecoplaystudio" target="_blank">
+        Ir a itch.io
       </a>
     </div>
 
+    <footer>
+      ¿Necesitas Ayuda? ¡Contáctanos! Correo: ecoplaystudios@gmail.com
+    </footer>
   </main>
 
 </body>
